@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+<head>
+    <title>ACME</title>
+    <link href="main.css" rel="stylesheet">
+</head>
+
+<main>
+    <header id="header">
+        <img src="https://static.wikia.nocookie.net/warner-bros-entertainment/images/6/6e/Acme-corp.png/revision/latest?cb=20180619032346"
+        id="header-img"
+        alt="ACME Logo">
+        
+        <nav id="nav-bar">
+            <ul>
+                <li><a class="nav-link" href="#features">Features</a></li>
+                <li><a class="nav-link" href="#example">Example</a></li>
+                <li><a class="nav-link" href="#pricing">Pricing</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="start">
+        <h2>A collection of the finest ACME Products, straight to your email</h2>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Enter your Email"
+                required
+              />
+
+            <input
+                type="submit"
+                id="submit"
+                value="Submit"
+            />
+        </form>
+    </div>
+
+    <div id="features">
+        <div>
+            <h2>Premium Quality</h2>
+            <p>Only the finest materials are used from suppliers that were meticulously hand-picked</p>
+        </div>
+
+        <div>
+            <h2>Quick Delivery</h2>
+            <p>As soon as your order is processed, we are working hard to get it straight to you</p>
+        </div>
+
+        <div>
+           <h2>Careful Checks</h2>
+           <p>All products undergo tests before being delivered</p>
+        </div>
+    </div>
+
+    <hr>
+
+    <div id="example">
+        <iframe
+            id="video"
+            width="640"
+            height="360"
+            src="https://www.youtube.com/embed/Og67Wwhhe6Q"
+            frameborder="0"
+            allowfullscreen>
+        </iframe>
+    </div>
+
+    <hr>
+
+    <section id="pricing">
+        <div class="product" id="tenor">
+          <div class="level">Base Pack</div>
+          <h2>$6000</h2>
+          <ol>
+            <li>Lorem ipsum.</li>
+            <li>Lorem ipsum.</li>
+            <li>Lorem ipsum dolor.</li>
+            <li>Lorem ipsum.</li>
+          </ol>
+          <button class="btn">Select</button>
+        </div>
+        <div class="product" id="bass">
+          <div class="level">Intermediate Pack</div>
+          <h2>$9000</h2>
+          <ol>
+            <li>Lorem ipsum.</li>
+            <li>Lorem ipsum.</li>
+            <li>Lorem ipsum dolor.</li>
+            <li>Lorem ipsum.</li>
+          </ol>
+          <button class="btn">Select</button>
+        </div>
+        <div class="product" id="valve">
+          <div class="level">Advanced Pack</div>
+          <h2>$12000</h2>
+          <ol>
+            <li>Lorem ipsum</li>
+            <li>Lorem ipsum</li>
+            <li>Lorem ipsum dolor.</li>
+            <li>Lorem ipsum.</li>
+          </ol>
+          <button class="btn">Select</button>
+        </div>
+      </section>
+</main>

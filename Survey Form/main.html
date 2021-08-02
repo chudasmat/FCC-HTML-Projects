@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Survey Form</title>
+    <link href="main.css" rel="stylesheet">
+</head>
+
+<main id="main">
+   
+    <header id="header">
+        <img 
+        src="https://static.wikia.nocookie.net/warner-bros-entertainment/images/6/6e/Acme-corp.png/revision/latest?cb=20180619032346"
+        id="header-img">
+        <h1 id="title">ACME Survey Form</h1>
+        <p id="description"><strong>Thanks for taking the time to participate in this survey</strong></p>
+    </header>
+
+    <form id="survey-form">
+            <div class="form-group">
+              <label id="name-label" for="name">Name:</label>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                class="form-control"
+                placeholder="Enter your name"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label id="email-label" for="email">Email:</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                class="form-control"
+                placeholder="Enter your Email"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label id="number-label" for="number"
+                >Age:<span class="clue"> (optional)</span></label>
+              <input
+                type="number"
+                name="age"
+                id="number"
+                min="10"
+                max="99"
+                class="form-control"
+                placeholder="Age"
+              />
+            </div>
+            <div class="form-group">
+              <p>Which option best describes your current role?</p>
+              <select id="dropdown" name="role" class="form-control" required>
+                <option disabled selected value>Select current role</option>
+                <option value="student">Student</option>
+                <option value="job">Full Time Job</option>
+                <option value="learner">Full Time Learner</option>
+                <option value="preferNo">Prefer not to say</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+        
+            <div class="form-group">
+              <p>Would you recommend ACME to a friend?</p>
+              <label>
+                <input
+                  name="user-recommend"
+                  value="yes"
+                  type="radio"
+                  class="input-radio"
+                  checked
+                />Yes</label>
+              <label>
+                <input
+                  name="user-recommend"
+                  value="maybe"
+                  type="radio"
+                  class="input-radio"
+                />Maybe</label>
+        
+              <label
+                ><input
+                  name="user-recommend"
+                  value="no"
+                  type="radio"
+                  class="input-radio"
+                />No</label>
+            </div>
+        
+            <div class="form-group">
+              <p>What is your favorite ACME product?</p>
+              <select id="most-like" name="mostLike" class="form-control" required>
+                <option disabled selected value>Select an option</option>
+                <option value="rocketskates">Rocket-Powered Roller Skates</option>
+                <option value="cleanerwagon">Street Cleaner Wagon</option>
+                <option value="kitekit">Giant Kite Kit</option>
+                <option value="waterpistol">Water Pistol</option>
+              </select>
+            </div>
+        
+            <div class="form-group">
+              <p>
+                What would you want to see updated?
+                <span class="clue">(Check all that apply)</span>
+              </p>
+        
+              <label
+                ><input
+                  name="prefer"
+                  value="rocketskates"
+                  type="checkbox"
+                  class="input-checkbox"
+                />Rocket-Powered Roller Skates</label>
+              <label>
+                <input
+                  name="prefer"
+                  value="cleanerwagon"
+                  type="checkbox"
+                  class="input-checkbox"
+                />Street Cleaner Wagon</label>
+              <label
+                ><input
+                  name="prefer"
+                  value="kitekit"
+                  type="checkbox"
+                  class="input-checkbox"
+                />Giant Kite Kit</label>
+              <label
+                ><input
+                  name="prefer"
+                  value="waterpistol"
+                  type="checkbox"
+                  class="input-checkbox"
+                />Water Pistol</label>
+              <label
+                ><input
+                  name="prefer"
+                  value="other"
+                  type="checkbox"
+                  class="input-checkbox"
+                />Other (Comment Below)</label>
+        
+            <div class="form-group">
+              <p>Enter additional comments or suggestions below:</p>
+              <textarea
+                id="comments"
+                class="input-textarea"
+                name="comment"
+                placeholder="Enter your comment here..."
+              ></textarea>
+            </div>
+        
+            <div class="form-group">
+              <button type="submit" id="submit" class="submit-button">
+                Submit
+              </button>
+            </div>
+          </form>
+    </form>
+
+    <footer>
+        <h4>
+            Made by <a
+            id="footer"
+            href="https://www.freecodecamp.org/chudasmat"
+            target="_blank">
+            Trishan Chudasma</a>
+        </h4>
+    
+    </footer>
+
+</main>

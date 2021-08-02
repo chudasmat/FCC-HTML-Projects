@@ -1,0 +1,86 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+
+html {
+    font-size: 10px;
+}
+
+#main {
+    font-family: Montserrat, sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    text-align: center;
+    background-color: #D7DBD8;
+    margin: 0;
+    padding: 15px;
+    border-radius: 15px;
+    list-style-position: inside;
+}
+
+#fill {
+    opacity: 15%;
+    background-size: cover;
+}
+
+#title {
+    font-size: 3rem;
+    line-height: 0.75;
+    color: #449DD1;
+}
+
+#sub {
+    font-size: 2rem;
+    line-height: 1;
+    padding-bottom: 5px;
+}
+
+article {
+    background-color: #ede9e8;
+    border-radius: 15px;
+}
+
+img {
+    max-width: 100%;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+}
+
+#img-div {
+    border-radius: 15px;
+    background-color: white;
+    margin: 0;
+    padding: 15px;
+}
+
+#img-caption {
+    font-size: 2rem;
+    line-height: 0.8;
+    margin-top: 7.5px;
+    padding-top: 5px;
+}
+
+a:visited {
+    color: #20A39E;
+}
+
+#tribute-info {
+    text-align: center;
+    font-size: 1.75rem;
+    padding-top: 3.5px;
+    padding-bottom: 7.5px;
+}
+
+#article-heading {
+    text-align: center;
+    margin-left: 5.5rem;
+}
+
+hr {
+    width: 100%;
+    height: 15px
+    margin: auto;
+    color: black;
+    border: solid;
+    border-radius: 40px;
+}

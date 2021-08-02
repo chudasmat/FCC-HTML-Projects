@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+html {
+    font-size: 10px;
+}
+
+main {
+    font-family: 'Raleway', sans-serif;
+    font-size: 2rem;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header-img {
+    margin-left: 1500px;
+    margin-top: 5px;
+}
+
+a:link {
+    color:red;
+    text-decoration: none;
+}
+
+a:hover {
+    color:red;
+}
+
+#nav-bar {
+    margin-top: 20px;
+    margin-right: 25px;
+    top: 0;
+    position: fixed;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-right: 50px;
+}
+
+#start {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 45px;
+}
+
+#email {
+    display: flex;
+    flex-direction: column;
+    font-family: inherit;
+    padding: 10px;
+    height: 20px;
+    width: 260px;
+    margin-right: 20px;
+    border: solid;
+    border-color: black;
+    border-radius: 30px;
+    text-align: center;
+    border-width: 1px;
+}
+
+#submit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+    font-family: inherit;
+    height: 70%;
+    width: 70%;
+    margin-left: 37.5px;
+    border: solid;
+    border-color: red;
+    border-width: 2.5px;
+    border-radius: 10px;
+}
+
+#features {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+#example {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+hr {
+    height: 10px;
+    border: solid;
+    border-color: black;
+    border-radius: 10px;
+}
+
+#video {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#pricing {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: inherit;
+  }
+  
+  .product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: calc(100% / 3);
+    margin: 10px;
+    border: 1px solid #000;
+    border-radius: 3px;
+  }
+  
+  .product > .level {
+    background-color: #ddd;
+    color: black;
+    padding: 15px 0;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  
+  .product > button {
+    border: 0;
+    margin: 15px 0;
+    font-weight: 400;
+  }
+  
+.product {
+    max-width: 300px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 650px) {
+    nav {
+      margin-top: 10px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 0 50px;
+    }
